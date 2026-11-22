@@ -2,8 +2,8 @@
   {
     "name": "Man-eating tree",
     "type": "TerrainFeature",
-    "food": 1,
-    "faith": 1,
+    "food": 2,
+    "faith": 2,
     "movementCost": 2,
     "unbuildable": true,
     "occursOn": [
@@ -13,8 +13,7 @@
       "Rough terrain",
       "Rare feature",
       "Must be adjacent to [1] to [6] [Forest] tiles",
-      "[10]% Chance to be destroyed by nukes",
-      "All adjacent units heal [10] extra HP when healing"
+      "[10]% Chance to be destroyed by nukes"
     ]
   },
   {
@@ -22,13 +21,15 @@
     "type": "TerrainFeature",
     "food": 3,
     "gold": 1,
+    "unbuildable": true,
     "movementCost": 1,
     "defenceBonus": -0.1,
     "occursOn": ["Desert"],
     "uniques": [
       "Fresh water",
       "Rare feature",
-      "Only [All Road] [Trade road: Food] improvements may be built on this tile",
+      "Only [All Road] improvements may be built on this tile",
+      "Only [Trade road: Food] improvements may be built on this tile",
       "Always Fertility [4] for Map Generation",
       "Considered [Food] when determining start locations",
       "Considered [Desirable] when determining start locations"
