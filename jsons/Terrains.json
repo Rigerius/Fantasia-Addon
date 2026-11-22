@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Man-eating tree",
+    "type": "TerrainFeature",
+    "food": 1,
+    "faith": 1,
+    "movementCost": 2,
+    "unbuildable": true,
+    "occursOn": [
+      "Plains"
+    ],
+    "uniques": [
+      "Rough terrain",
+      "Rare feature",
+      "Must be adjacent to [1] to [6] [Forest] tiles",
+      "[10]% Chance to be destroyed by nukes",
+      "All adjacent units heal [10] extra HP when healing"
+    ]
+  },
+  {
+    "name": "Oasis",
+    "type": "TerrainFeature",
+    "food": 3,
+    "gold": 1,
+    "movementCost": 1,
+    "defenceBonus": -0.1,
+    "occursOn": ["Desert"],
+    "uniques": [
+      "Fresh water",
+      "Rare feature",
+      "Only [All Road] [Trade road: Food] improvements may be built on this tile",
+      "Always Fertility [4] for Map Generation",
+      "Considered [Food] when determining start locations",
+      "Considered [Desirable] when determining start locations"
+    ],
+    "civilopediaText": [
+      {"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
+      {"text": "Rivers", "link":"Terrain/River"},
+      {"text": "Lakes", "link":"Terrain/Lakes"},
+      {"text": "Farm", "link":"Improvement/Farm"},
+      {"text": "Civil Service", "link":"Technology/Civil Service"},
+      {"text": "Fertilizer", "link":"Technology/Fertilizer"}
+    ]
+  }
+]
