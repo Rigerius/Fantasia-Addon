@@ -7,8 +7,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
 		"uniques": [
-			"Unbuildable <in [Ley Line] tiles> <hidden from users>",
-			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] <after discovering [Education]>"
 		],
 		"shortcutKey": "F"
